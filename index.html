@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+        .content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 1em;
+        }
+        .content-info{
+            width: 30%;
+        }
+        .content-login{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1em;
+        }
+        .content-login-box{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1em;
+            padding: 2em;
+            border-radius: 7px;
+            width: 100%;
+            box-shadow: 0 0 10px grey;
+        }
+        h1{
+            color: dodgerblue;
+            font-size: 3em;
+        }
+        h3{
+            font-weight: 500;
+        }
+        input{
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #f0f0f0;
+            outline: none;
+            width: 90%;
+        }
+        .btn{
+            padding: 15px;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            width: 100%;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        a{
+            color: dodgerblue;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        p{
+            color: black;
+        }
+        hr{
+            width: 100%;
+            border: 1px solid #f0f0f0;
+        }
+        .btn-enter{
+            background-color: dodgerblue;
+        }
+        .btn-enter:hover{
+            background-color: rgb(23, 132, 241);
+        }
+        .btn-create-account{
+            background-color: #63b863;
+        }
+        .btn-create-account:hover{
+            background-color: #59a359;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="content-info">
+            <h1>facebook</h1>
+            <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida</h3>
+        </div>
+        <div class="content-login">
+            <div class="content-login-box">
+                <input type="text" placeholder="Email ou telefone">
+                <input type="passowrd" placeholder="Senha">
+                <button class="btn btn-enter">Entrar</button>
+                <a href="#" class="forgot-password">Esqueceu a senha ?</a>
+                <hr>
+                <button class="btn btn-create-account">Criar nova conta</button>
+            </div>
+            <p><strong>Criar uma Página</strong> para uma celebridade, uma marca ou uma empresa.</p>
+        </div>
+    </div>
+</body>
+</html>
