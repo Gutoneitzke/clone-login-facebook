@@ -50,7 +50,7 @@
             font-weight: 500;
             font-size: 2rem;
         }
-        input{
+        .inputs{
             padding: 15px;
             height: 22px;
             border-radius: 6px;
@@ -60,7 +60,7 @@
             font-size: 17px;
             color: #1d2129;
         }
-        input:focus{
+        .inputs:focus{
             border-color: #1b74e4;
             box-shadow: 0 0 0 2px #e7f3ff;
             caret-color: #1b74e4;
@@ -99,7 +99,7 @@
         }
         .btn-create-account{
             background-color: #42b72a;
-            width: auto;
+            width: 50%;
         }
         .btn-create-account:hover{
             background-color: #36a420;
@@ -113,14 +113,14 @@
             <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida</h3>
         </div>
         <div class="content-login">
-            <div class="content-login-box">
-                <input type="text" placeholder="Email ou telefone">
-                <input type="password" placeholder="Senha">
+            <form class="content-login-box">
+                <input type="text" class="inputs" placeholder="Email ou telefone">
+                <input type="password" class="inputs" placeholder="Senha">
                 <button class="btn btn-enter">Entrar</button>
                 <a href="#" class="forgot-password">Esqueceu a senha ?</a>
                 <hr>
-                <button class="btn btn-create-account">Criar nova conta</button>
-            </div>
+                <input type="submit" class="btn btn-create-account" value="Criar nova conta">
+            </form>
             <p><strong>Criar uma Página</strong> para uma celebridade, uma marca ou uma empresa.</p>
         </div>
     </div>
